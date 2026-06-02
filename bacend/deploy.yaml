@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: srini2390/cwvj-app1
+          image: srini2390/cwvj-backend-app1:latest
           ports:
             - containerPort: 5000
