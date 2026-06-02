@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/SrinivasNairTP/argocd-app1-backendendconfig.git
     targetRevision: HEAD
-    path: backend
+    path: bacend
   destination:
     server: https://kubernetes.default.svc
     namespace: app1-ns
